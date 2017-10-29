@@ -9,6 +9,7 @@ public class LinkedList<T> implements MyList <T>{
 	public LinkedList(){
 		tail = null;
 		count = 0;
+		System.out.println();
 	}
 	
 class Node<T> {
