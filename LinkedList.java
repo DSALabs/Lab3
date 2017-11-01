@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 package lab3;
 import java.util.*;
+
 public class LinkedList<T> implements MyList <T>{
 	Node <T> tail;
 	int count;
@@ -12,17 +12,17 @@ public class LinkedList<T> implements MyList <T>{
 		System.out.println();
 	}
 	
-class Node<T> {
-   T data;
-   Node<T> next;
-   Node<T> tail = null;
-   public Node<T> getNext(){
+class Node<E> {
+   E data;
+   Node<E> next;
+   Node<E> tail = null;
+   public Node<E> getNext(){
 	   return next;
    }
-   public void setNext(Node<T> nextVal) {
+   public void setNext(Node<E> nextVal) {
 	   next = nextVal;
    }
-   public Node(T data) {
+   public Node(E data) {
 	   this.data = data;
 	   next = null;
    }
@@ -178,13 +178,4 @@ class Node<T> {
 		}
 		return false;
 	}
-
 }
-
-
-
-
-
-
-
->>>>>>> 383b06a76cd941e3438f0df030e57bb17ae6dbad
