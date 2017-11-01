@@ -50,22 +50,4 @@ public class Stack<T> {
 		cursor++;
 		return list.get(cursor);
 	}
-		
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
